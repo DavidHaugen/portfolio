@@ -1,33 +1,181 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+html{
+  background-color: #fcf8f3;
+  height: 100vh
+}
+
+nav{
+  height: 50px;
+  background-color: #fcf8f3;
+  justify-content: space-around;
+  padding-top: .2rem;
+  border-bottom: 1px solid #5b6786;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 1 0 auto;
+  margin: 0;
+  padding: 0;  
+  align-items: center
+}
+
+.nav-link{ 
+  text-decoration: none;
+  padding: .3vw 2vw;
+  color: #5b6786;
+  height: 32px;
+}
+
+#home-link{
+  font-size: 18px;
+}
+
+#projects-link{
+  font-size: 16px;
+}
+
+#about-link{
+  font-size: 16px;
+}
+
+.nav-link:hover{
+  border-bottom: 3px solid #5b6786;
+}
+
+main{
+  display: flex;
+  align-content: center;
+  min-height: 90vh;
+  max-width: 800px;
+  margin: 5px auto 50px auto; 
+}
+
+section{
+  display: flex;
+  text-align: left;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-solid{
+  background-color: #5b6786;
+  border-color: #5b6786;
+  border-style: none;
+  color: #fcf8f3;
+  border-radius: 2px;
+  /* min-height: 1.5rem;
+  min-width: 5rem; */
+  height: 1.8em;
+    width: 8em;
+  cursor: pointer;
+}
+
+.button-solid:hover{
+  background-color: #5b6786d8;
+  border-color: #5b6786d8;
+}
+
+.button-border{
+  background-color: #fcf8f3;
+  border-color: #5b6786;
+  border-style: solid;
+  border-radius: 2px;
+  /* min-height: 1.5rem;
+  min-width: 5rem; */
+  height: 1.8em;
+    width: 8em;
+  color: #444;
+  cursor: pointer;
+}
+
+.button-border:hover{
+  background-color: #5b6786;
+  border-color: #5b6786;
+  border-style: none;
+  color: #fcf8f3;
+  background-color: #5b6786d8;
+  border-color: #5b6786d8;
+}
+
+.left-button{
+  border-top-right-radius: 0;
+  border-bottom-right-radius:0;
+}
+.right-button{
+  border-top-left-radius: 0;
+  border-bottom-left-radius:0;
+}
+
+.project-screenshot{
+  width: 100%;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.technologies-container{
+  padding-top: .8rem;
+}
+
+.tech-logo{
+  width: 22px;
+  display: inline-block;
+  height: 22px;
+  margin-right: 1rem;
+}
+
+.contact-logo{
+  width: 35px;
+  display: inline-block;
+  height: 35px;
+  margin-right: 1rem;
+}
+
+footer{
+  background-color: #fcf8f3;
+  color: rgb(204, 197, 197);
+  position: fixed;
+  font-size: .6em;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* colors: #fcf8f3, #aedadd, #db996c, #6e7da2  https://colorhunt.co/palette/135437 */
+
+
+@media only screen and (min-width: 900px) {
+
+
+
+  footer{
+      width: 75%
+    }
 }
