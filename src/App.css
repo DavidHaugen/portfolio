@@ -168,6 +168,21 @@ footer{
   font-family: 'Open Sans', sans-serif;
 }
 
+.tech-used{
+  font-size: 14px; 
+}
+
+.project-container{
+  padding: 3vh 0 6vh 0;
+  border-bottom: 2px solid #5b6786;
+}
+
+.project-container:last-child{
+  border-bottom: none;
+}
+
+
+
 /* colors: #fcf8f3, #aedadd, #db996c, #6e7da2  https://colorhunt.co/palette/135437 */
 
 

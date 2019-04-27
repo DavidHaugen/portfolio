@@ -6,6 +6,6 @@ export default class Footer extends Component{
       <footer className="footer flex">
         <p> Made by David Haugen 2019</p>
       </footer>
-    )
+    );
   }
 }

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import GithubLogo from './images/Github-logo.png'
-import MailImage from './images/mail-gray.png'
-import LinkedinLogo from './images/linkedin-logo-transparent-rescaled.png'
+import GithubLogo from './images/Github-logo.png';
+import MailImage from './images/mail-gray.png';
+import LinkedinLogo from './images/linkedin-logo-transparent-rescaled.png';
 
 
 export default class About extends Component{
@@ -19,7 +19,7 @@ export default class About extends Component{
           <a href="mailto:haugen.dj@gmail.com"><img src={MailImage} alt="An envelope"className="contact-logo"/></a>
           <a href="https://www.linkedin.com/in/haugen-david" target="_blank" rel="noopener noreferrer"><img src={LinkedinLogo} alt="Linkedin logo"className="contact-logo"/></a>
         </div>
-    </section>
-    )
+      </section>
+    );
   }
 }
