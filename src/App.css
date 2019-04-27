@@ -68,6 +68,10 @@ section{
   padding-right: 1em;
 }
 
+section.home{
+  padding-bottom: 13vh;
+}
+
 body {
   font-family: "Open Sans",
   sans-serif; 
