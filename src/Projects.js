@@ -41,8 +41,7 @@ export default class Projects extends Component{
             <img src={AnimalQuiz} alt="Project screenshot" className="project-screenshot"/>
           </div>
           <p className="tech-used">Technologies used:</p>
-          <p className="tech-used">Client: HTML, CSS, JavaScript, jQuery, deployed with Github Pages.</p>
-          <p className="tech-used">Server/Database: Node.js, Express, PostgreSQL, Heroku Scheduler, Nodemailer, Postgrator, Chai, Mocha, Supertest. Deployed using Heroku.</p>
+          <p className="tech-used">HTML, CSS, JavaScript, jQuery, deployed with Github Pages.</p>
           <p className="project-description">Animal Facts Quiz is a clean, simple app that allows users to test themselves on unique animal facts. The app tracks user progress, provides feedback, and provides a summary of user results at the end of the quiz. </p>
           <div className="project-links">
             <a href="https://github.com/DavidHaugen/animal-quiz" target="_blank" rel="noopener noreferrer"><button className="button-border left-button">View repo</button></a>
