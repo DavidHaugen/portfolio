@@ -12,6 +12,7 @@ html{
 }
 
 nav{
+  position: fixed;
   height: 50px;
   background-color: #fcf8f3;
   justify-content: space-around;
@@ -66,6 +67,7 @@ section{
   font-family: 'Open Sans', sans-serif;
   padding-left: 1em;
   padding-right: 1em;
+  margin-top: 50px;
 }
 
 section.home{
