@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className='pageFormatter'>
+    <div>
       <Nav />
       <main>
         <Switch>
@@ -31,7 +31,6 @@ function App() {
           />
         </Switch>
         <Footer />
-
       </main>
     </div>
   );

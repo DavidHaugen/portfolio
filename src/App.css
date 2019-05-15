@@ -13,12 +13,14 @@ html{
 
 nav{
   position: fixed;
+  left: 2.5%;
+  top: 0;
   height: 50px;
   background-color: #fcf8f3;
   justify-content: space-around;
   padding-top: .2rem;
   border-bottom: 1px solid #5b6786;
-  width: 95%;
+  width: 95vw;
   margin-left: auto;
   margin-right: auto;
   flex: 1 0 auto;
@@ -27,11 +29,16 @@ nav{
   align-items: center
 }
 
+#nav-list{
+  line-height: 1em;
+}
+
 .nav-link{ 
   text-decoration: none;
-  padding: .3vw 2vw;
+  padding: .5em 2vw;
   color: #5b6786;
   height: 32px;
+  margin-top: 3px;
 }
 
 #home-link{
@@ -165,12 +172,12 @@ footer{
   background-color: #fcf8f3;
   color: rgb(204, 197, 197);
   position: fixed;
+  width: 100%;
   font-size: .6em;
   justify-content: center;
   align-items: center;
   bottom: 0;
   height: 50px;
-  width: 100%;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -194,9 +201,69 @@ footer{
 
 @media only screen and (min-width: 900px) {
 
+  section{
+    margin-top: 10px;
+  }
 
+  nav{
+    position: fixed;
+    left: 0;
+    top: 10%;
+    height: 80vh;
+    flex-direction: column;
+    background-color: #fcf8f3;
+    justify-content: space-around;
+    padding-top: .2rem;
+    border-right: 1px solid #5b6786;
+    border-bottom: 0;
+    width: 27vw;
+    flex: 1 0 auto;
+    margin: 0;
+    padding: 0;  
+    align-items: center
+  }
+
+  .nav-link{
+    height: 40px;
+  }
+
+  #home-link{
+    font-size: 22px;
+  }
+  
+  #projects-link{
+    font-size: 20px;
+  }
+  
+  #about-link{
+    font-size: 20px;
+  }
+
+  html{
+    margin-left: 27vw;
+  }
+
+  .page-formatter{
+    flex-direction: row;
+  }
 
   footer{
-      width: 75%
+    background-color: #fcf8f3;
+    color: rgb(204, 197, 197);
+    position: fixed;
+    width: 100%;
+    font-size: .6em;
+    align-items: center;
+    bottom: 0;
+    justify-content: normal;
+    height: 50px;
+    padding-left: 20vw;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+    .button-solid, .button-border{
+      width: 8em;
+      height: 2em;
+      font-size: 14px;
     }
 }
