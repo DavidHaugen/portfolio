@@ -194,6 +194,13 @@ footer{
   border-bottom: none;
 }
 
+#portrait{
+  height: 25vh;
+  width: 25vh;
+  margin: 25px auto 20px auto;
+  border-radius: 50%
+}
+
 
 
 /* colors: #fcf8f3, #aedadd, #db996c, #6e7da2  https://colorhunt.co/palette/135437 */

@@ -2,12 +2,14 @@ import React, {Component} from 'react';
 import GithubLogo from './images/Github-logo.png';
 import MailImage from './images/mail-gray.png';
 import LinkedinLogo from './images/linkedin-logo-transparent-rescaled.png';
+import portfolioPortrait from './images/portfolio-portrait.png';
 
 
 export default class About extends Component{
   render(){
     return(
       <section className="about-me flex">
+        <img id='portrait' src={portfolioPortrait} alt='David Haugen' ></img>
         <p className="about-me-paragraph">
             I'm always trying to learn something new. If I'm not working, I'm probably neck-deep in a new hobby. Lately it's been a math-inspired sculpture project, playing guitar, and running with my dog, Odin. Last year I decided to add Web Development to the list, and I fell in head-first. Now, I'm weeks away from completing Thinkful's Full-Stack Web Development Boot Camp and am looking to build a career using my curiosity to solve problems with the latest trends in the industry. 
         </p>
