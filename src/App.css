@@ -148,6 +148,8 @@ body {
 
 .technologies-container{
   padding-top: .8rem;
+  width: 150px;
+  justify-content: space-around;
 }
 
 .tech-logo{
@@ -158,10 +160,10 @@ body {
 }
 
 .contact-logo{
+  box-sizing: border-box;
   width: 35px;
   display: inline-block;
   height: 35px;
-  margin-right: 1rem;
 }
 
 footer{
