@@ -11,6 +11,18 @@ html{
   height: 100vh
 }
 
+.tech-used-text{
+  margin: 40px 0 0 0;
+}
+
+.tech-used{
+  font-size:1em
+}
+
+h4{
+  font-size: 1.2em;
+}
+
 nav{
   position: fixed;
   left: 2.5%;
@@ -179,10 +191,6 @@ footer{
   font-family: 'Open Sans', sans-serif;
 }
 
-.tech-used{
-  font-size: 14px; 
-}
-
 .project-container{
   padding: 3vh 0 6vh 0;
   border-bottom: 2px solid #5b6786;
@@ -190,6 +198,10 @@ footer{
 
 .project-container:last-child{
   border-bottom: none;
+}
+
+.project-links{
+  margin-top: 30px;
 }
 
 #portrait{
