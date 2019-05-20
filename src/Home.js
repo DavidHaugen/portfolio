@@ -6,7 +6,7 @@ export default class Home extends Component{
     return(
       <section className="home">
         <p id="home-paragraph">
-        Hi, I'm David. I'm a full-stack developer currently living in Minneapolis, MN. I love dogs, learning, and learning about dogs. Feel free to check out my work below and email me if you see something you like.
+        Hi, I'm David. I'm a full-stack developer currently living in Minneapolis, MN. I love dogs, learning, and learning about dogs. Check out my work below, and feel free to email me if you see something you like.
         </p>
         <div>
           <a href="mailto:haugen.dj@gmail.com" target='_blank' rel='noopener noreferrer'><button className="button-solid left-button">Email me</button></a>
