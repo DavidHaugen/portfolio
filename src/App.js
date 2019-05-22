@@ -2,7 +2,7 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import Nav from './Nav';
 import Home from './Home';
-import About from './About';
+import Contact from './Contact';
 import Projects from './Projects';
 import NotFound from './NotFound';
 import Footer from './Footer';
@@ -24,7 +24,7 @@ function App() {
           />
           <Route
             path={'/about'}
-            component={About}
+            component={Contact}
           />
           <Route
             component={NotFound}
