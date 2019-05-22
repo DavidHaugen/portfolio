@@ -23,7 +23,7 @@ function App() {
             component={Projects}
           />
           <Route
-            path={'/about'}
+            path={'/contact'}
             component={Contact}
           />
           <Route

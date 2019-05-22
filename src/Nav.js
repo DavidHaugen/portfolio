@@ -7,7 +7,7 @@ export default class Nav extends Component{
       <nav role="navigation" className="flex" id="nav-list">
         <Link to="/" className="nav-link" id="home-link">David Haugen</Link>
         <Link to="/projects" className="nav-link" id="projects-link">Projects</Link>
-        <Link to="/about" className="nav-link" id="about-link">Contact</Link>
+        <Link to="/contact" className="nav-link" id="about-link">Contact</Link>
       </nav>
     );
   }
